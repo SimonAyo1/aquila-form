@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div fxLayout="row" fxLayoutAlign="center center" class="grand-div">
+
+        <div fxLayout="column" fxLayoutAlign="space-around center">
+
+            <div>
+                <div>
+                    <p class="head">How we can reach out to you ?</p>
+                    <p class="p1">We need your email address and phone number to send you</p>
+                    <p class="p2">important updates. We won't send you spam we promise</p>
+                </div>
+            </div>
+            <div>
+                <mat-form-field appearance="standard" class="me">
+                    <mat-label>Email Address</mat-label>
+                    <input matInput>
+                </mat-form-field>
+            </div>
+            <div>
+                <div fxLayout="row" fxLayoutAlign="space-around center" style="margin-left: 56px;">
+                    <div>
+                        <mat-form-field appearance="standard" class="phone-def">
+                            <mat-label>+234 </mat-label>
+                            <input matInput>
+                        </mat-form-field>
+                    </div>
+                    <div>
+                        <mat-form-field appearance="standard" class="phone-num">
+                            <mat-label>Ex 8098765432</mat-label>
+                            <input matInput>
+                            <mat-hint align="end"><a href="#"> what's this ? </a></mat-hint>
+                        </mat-form-field>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <mat-form-field appearance="standard" class="me">
+                    <mat-label>Enter a referral code if you have</mat-label>
+                    <input matInput>
+
+                </mat-form-field>
+            </div>
+            <div class="flex-items" style="margin-top: 45px;">
+                <p style="font-weight: 600;">By clicking Next, you agree to the <a href="#">Terms of Use</a> and
+                    <a href="#">Privacy Policy </a> of Switch
+                </p>
+
+            </div>
+            <div class="flex-items" style="margin-top: 30px;">
+                <button mat-raised-button class="next">Next</button>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
